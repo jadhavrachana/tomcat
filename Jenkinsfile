@@ -7,7 +7,7 @@ pipeline {
         stage('SCM') {
 
             steps {
-                    git "https://github.com/jadhavrachana/pipe-tomcat.git"
+                    git "https://github.com/jadhavrachana/tomcat.git"
                 //
             }
         }
